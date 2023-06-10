@@ -1,0 +1,263 @@
+footer,
+header,
+nav {
+  display: block;
+}
+
+html {
+  font-family: sans-serif;
+  background: #fff;
+  color: #000;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  background: transparent;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+small {
+  font-size: 80%;
+}
+
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  color: #bfc1c8;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  background: #1e202b;
+}
+
+h1 {
+  font-weight: 700;
+  margin: 0 0 20px;
+  line-height: normal;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #009ad8;
+}
+
+p {
+  margin-top: 0;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  *zoom: 1;
+}
+
+/**** header section ****/
+.site-header {
+  padding: 50px 0;
+}
+
+.site-header .branding {
+  float: left;
+}
+
+.site-header .branding .logo,
+.site-header .branding .logo-type {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.site-header .branding .logo {
+  margin-right: 10px;
+}
+
+.site-header .branding .site-title {
+  margin-bottom: 0px;
+  font-size: 22px;
+  color: white;
+}
+
+.site-header .branding {
+  font-size: 10px;
+  font-size: 0.7142857143em;
+  display: block;
+  color: #bfc1c8;
+}
+
+
+/**** navigation section ****/
+.main-navigation {
+  float: right;
+}
+
+.main-navigation .menu {
+  vertical-align: middle;
+  background: none;
+  border: 2px solid transparent;
+  color: white;
+  padding: 20px;
+  border-radius: 40px;
+  list-style: none;
+  display: inline-block;
+}
+
+.main-navigation .menu-item:hover {
+  border-color: #009ad8;
+  color: #009ad8;
+}
+
+.main-navigation .menu .menu-item {
+  float: left;
+  margin-left: 10px;
+}
+
+.main-navigation .menu .menu-item a {
+  padding: 5px 25px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  color: white;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  font-weight: 400;
+}
+
+.main-navigation .menu .menu-item.current-menu-item a,
+.main-navigation .menu .menu-item:hover a {
+  border-color: #009ad8;
+  color: #009ad8;
+}
+
+/**** weather section  ****/
+.weather-container {
+  background: #323544;
+  display: table;
+  table-layout: fixed;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.weather-container .weather {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.weather-container .weather:nth-child(even) {
+  background-color: #262936;
+}
+
+.weather-container .weather.today {
+  width: 420px;
+}
+
+.weather-container .weather.today .weather-header {
+  display: block;
+  height: 15px;
+}
+
+.weather-container .weather.today .weather-header .day {
+  float: left;
+}
+
+.weather-container .weather.today .weather-header .date {
+  float: right;
+}
+
+.weather-container .weather.today .weather-content {
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.weather-container .weather.today .location {
+  font-size: 18px;
+  font-size: 1.2857142857em;
+  font-weight: 400;
+}
+
+.weather-container .weather.today .degree .num,
+.weather-container .weather.today .degree .weather-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.weather-container .weather.today .degree .num {
+  font-size: 90px;
+  font-size: 6.4285714286rem;
+  margin-right: 30px;
+}
+
+.weather-container .weather.today span {
+  margin-right: 20px;
+}
+
+.weather-container .weather.today span img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.weather-container .weather .weather-header {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.weather-container .weather .weather-content {
+  padding: 50px 20px 10px;
+  text-align: center;
+}
+
+.weather-container .weather .weather-content .weather-icon {
+  margin-bottom: 20px;
+}
+
+/**** footer section ****/
+.site-footer {
+  background: #262936;
+  padding: 50px 0;
+}
